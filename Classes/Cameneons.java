@@ -45,4 +45,21 @@ public class Cameneons implements Runnable {
     public void eat() {
         this.returnCameneosInfo("I am eating");
     }
+
+    /**
+     * Method Desc: 
+     * -Returns if the Cameneos is training
+     */
+    public void training() {
+        this.returnCameneosInfo("I am training");
+    }
+
+    /**
+     * Method Desc: 
+     * -Returns if the Cameneos is going to Mall
+     */
+    public void goToMall() {
+        this.returnCameneosInfo("I am going to Mall");
+    }
+
 }
