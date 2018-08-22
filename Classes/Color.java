@@ -9,7 +9,7 @@
  * @author: Maroun Melhem <https://maroun.me>
  */
 
-package accov;
+package Accov-tpFinal-2018-10504F;
 public class Color {
 
     public int InteriorColor;
@@ -29,7 +29,7 @@ public class Color {
      * Method Desc: 
      * -Change Cameneos color 
      *
-     * @param cameneosInfo Cameneos info parameter
+     * @param otherCameneonColor Cameneos other color
      */
     public Color changerColor(Color otherCameneonColor) {
         if (this.InteriorColor == otherCameneonColor.InteriorColor) {
