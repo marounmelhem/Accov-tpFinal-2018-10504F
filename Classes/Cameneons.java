@@ -38,7 +38,6 @@ public class Cameneons implements Runnable {
     }
 
     /**
-     * Cette methode est utilise dans l'etat quand le cameneos mange
      * Method Desc: 
      * -Returns if the Cameneos is eating
      */
@@ -69,9 +68,10 @@ public class Cameneons implements Runnable {
      */
     public void doMutation() {
         this.returnCameneosInfo("I am doing a mutation");
-        //do cooperation here (pending)
-
-        //do colorChange here (pending)
+        //do cooperation here (pending / UPDATED)
+        this.otherCameneonColor=Mall.Cooperation(this.id, monColor);
+        //do colorChange here (pending / UPDATED)
+        this.monColor=this.monColor.changerColor(otherCameneonColor);
         this.returnCameneosInfo("Mutation is done");
     }
 
