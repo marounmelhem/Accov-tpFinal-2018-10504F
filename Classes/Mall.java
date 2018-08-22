@@ -9,7 +9,7 @@
  * @author: Maroun Melhem <https://maroun.me>
  */
  
-package tpfinal;
+package Classes;
 
 public class Mall {
 

@@ -9,17 +9,13 @@
  * @author: Maroun Melhem <https://maroun.me>
  */
 
-package tpfinal;
+package Classes;
 
 public class Play {
 
     //All color groups
     public static Color[] allColors=
     {
-        Color.RED,
-        Color.BLUE,
-        Color.YELLOW,
-        Color.BLUE,
         Color.RED,
         Color.BLUE
     };

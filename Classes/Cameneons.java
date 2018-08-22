@@ -11,6 +11,7 @@
  * @author: Maroun Melhem <https://maroun.me>
  *
  */
+package Classes;
 public class Cameneons implements Runnable {
 
     public Mall Mall;
@@ -36,6 +37,7 @@ public class Cameneons implements Runnable {
         System.out.println("My ID is: " + this.id);
         System.out.println("My Color is: " + this.theColor);
         System.out.println("My Info are: "+ cameneosInfo);
+        System.out.println("------------------------------");
     }
 
     /**
@@ -70,9 +72,9 @@ public class Cameneons implements Runnable {
     public void doMutation() {
         this.returnCameneosInfo("I am doing a mutation ");
         //do cooperation here (pending / UPDATED)
-        this.otherCameneonColor=Mall.Cooperation(this.id, monColor);
+        this.otherCameneonColor=Mall.Cooperation(this.id, theColor);
         //do colorChange here (pending / UPDATED)
-        this.monColor=this.monColor.changerColor(otherCameneonColor);
+        this.theColor=this.theColor.changerColor(otherCameneonColor);
         this.returnCameneosInfo("Mutation is done");
     }
 
