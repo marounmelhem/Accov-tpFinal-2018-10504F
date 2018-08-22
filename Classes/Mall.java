@@ -9,7 +9,7 @@
  * @author: Maroun Melhem <https://maroun.me>
  */
  
-package Accov-tpFinal-2018-10504F;
+package tpfinal;
 
 public class Mall {
 

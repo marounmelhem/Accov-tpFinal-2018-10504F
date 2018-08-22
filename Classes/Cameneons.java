@@ -43,7 +43,7 @@ public class Cameneons implements Runnable {
      * -Returns if the Cameneos is eating
      */
     public void eat() {
-        this.returnCameneosInfo("I am eating");
+        this.returnCameneosInfo("I am eating ");
     }
 
     /**
@@ -51,7 +51,7 @@ public class Cameneons implements Runnable {
      * -Returns if the Cameneos is training
      */
     public void training() {
-        this.returnCameneosInfo("I am training");
+        this.returnCameneosInfo("I am training ");
     }
 
     /**
@@ -59,7 +59,7 @@ public class Cameneons implements Runnable {
      * -Returns if the Cameneos is going to Mall
      */
     public void goToMall() {
-        this.returnCameneosInfo("I am going to Mall");
+        this.returnCameneosInfo("I am going to Mall ");
     }
 
     /**
@@ -68,7 +68,7 @@ public class Cameneons implements Runnable {
      *
      */
     public void doMutation() {
-        this.returnCameneosInfo("I am doing a mutation");
+        this.returnCameneosInfo("I am doing a mutation ");
         //do cooperation here (pending / UPDATED)
         this.otherCameneonColor=Mall.Cooperation(this.id, monColor);
         //do colorChange here (pending / UPDATED)
