@@ -1,5 +1,5 @@
 /**
- * Class Name: Cameneos  withoutMall
+ * Class Name: Cameneos withoutMall2
  * Class Desc: 
  * - Create cameneos object
  * - Adding unique id + color
