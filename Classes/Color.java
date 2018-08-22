@@ -6,7 +6,7 @@
  * @version 1.0
  * @package: Accov-tpFinal-2018-10504F
  * @developer: Maroun Melhem <https://maroun.me>
- *
+ * @author: Maroun Melhem <https://maroun.me>
  */
 
 package accov;
