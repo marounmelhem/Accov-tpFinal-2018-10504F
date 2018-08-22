@@ -62,4 +62,25 @@ public class Cameneons implements Runnable {
         this.returnCameneosInfo("I am going to Mall");
     }
 
+    /**
+     * Method Desc: 
+     * -Handle mutation
+     *
+     */
+    public void doMutation() {
+        this.returnCameneosInfo("I am doing a mutation");
+        //do cooperation here (pending)
+
+        //do colorChange here (pending)
+        this.returnCameneosInfo("Mutation is done");
+    }
+
+    public void run() {
+        while (true) {
+            eat();
+            training();
+            goToMall();
+            doMutation();
+        }
+    }
 }
