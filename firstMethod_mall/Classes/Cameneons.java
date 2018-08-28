@@ -1,5 +1,5 @@
 /**
- * Class Name: Cameneos
+ * Class Name: Cameneos (firstMethod)
  * Class Desc: 
  * - Create cameneos object
  * - Adding unique id + color

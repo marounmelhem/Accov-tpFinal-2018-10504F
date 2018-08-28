@@ -1,5 +1,5 @@
 /**
- * Class Name: CameneosID
+ * Class Name: CameneosID (firstMethod)
  * Class Desc: 
  * - Provide unique ID for Cameneos
  *

@@ -1,5 +1,5 @@
 /**
- * Class Name: Color
+ * Class Name: Color (firstMethod)
  * Class Desc: 
  * - Color management of cameneon
  *

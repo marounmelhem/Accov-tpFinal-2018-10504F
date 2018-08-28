@@ -1,5 +1,5 @@
 /**
- * Class Name: Mall
+ * Class Name: Mall (firstMethod)
  * Class Desc: 
  * - Mall methods
  *
