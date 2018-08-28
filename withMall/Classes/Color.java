@@ -24,7 +24,6 @@ public class Color {
         this.InteriorColor = colorValue % 3;
     }
 
-
      /**
      * Method Desc: 
      * -Change Cameneos color 

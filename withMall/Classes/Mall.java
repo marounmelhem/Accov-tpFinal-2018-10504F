@@ -30,7 +30,6 @@ public class Mall {
      */
     public synchronized Color Cooperation(CameneosID id, Color Color) {
         Color newColor;
-        
         //Keep other cameneons waiting if mall is working
         while (makeWait) {
             try {

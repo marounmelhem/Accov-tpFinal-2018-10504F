@@ -17,7 +17,11 @@ public class Play {
     public static Color[] allColors=
     {
         Color.RED,
-        Color.BLUE
+        Color.BLUE,
+        Color.YELLOW,
+        Color.BLUE,
+        Color.RED,
+        Color.BLUE,
     };
 
     //Cameneon objects
